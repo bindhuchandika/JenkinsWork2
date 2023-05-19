@@ -24,7 +24,7 @@ public class Test1 {
 		{
 			driver=new ChromeDriver();
 		}
-		
+		System.out.println("BROWSER : "+BROWSER+" URL : "+URL);		
 	}
 
 }
