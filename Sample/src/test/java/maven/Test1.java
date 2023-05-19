@@ -12,18 +12,6 @@ public class Test1 {
 		WebDriver driver;
 		String BROWSER = System.getProperty("browser");
 		String URL = System.getProperty("url");
-		if(BROWSER.equalsIgnoreCase("chrome"))
-		{
-			driver = new ChromeDriver();
-		}
-		else if(BROWSER.equalsIgnoreCase("edge"))
-		{
-			driver = new EdgeDriver();
-		}
-		else
-		{
-			driver=new ChromeDriver();
-		}
 		System.out.println("BROWSER : "+BROWSER+" URL : "+URL);		
 	}
 
